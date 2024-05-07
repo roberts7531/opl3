@@ -1,0 +1,384 @@
+Archive member included to satisfy reference by file (symbol)
+
+../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+                              kmain.o (printf_)
+../../../code/software/libs/build/lib/libprintf.a(putchar.o)
+                              ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o) (_putchar)
+../../../code/software/libs/build/lib/libmachine.a(machine.o)
+                              ../../../code/software/libs/build/lib/libprintf.a(putchar.o) (mcPrint)
+../../../code/software/libs/build/lib/libstart_serial.a(init.o)
+                              (_start)
+../../../code/software/libs/build/lib/libstart_serial.a(kinit.o)
+                              ../../../code/software/libs/build/lib/libstart_serial.a(init.o) (__kinit)
+/home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_udivsi3.o)
+                              ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o) (__udivsi3)
+/home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_umodsi3.o)
+                              ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o) (__umodsi3)
+/home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_mulsi3.o)
+                              /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_umodsi3.o) (__mulsi3_internal)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 kmain.o
+ .data          0x00000000        0x0 kmain.o
+ .bss           0x00000000        0x0 kmain.o
+ .text.readStatus
+                0x00000000        0xa kmain.o
+ .text.delayLoop
+                0x00000000       0x10 kmain.o
+ .text.startTImer
+                0x00000000       0x38 kmain.o
+ .text.isTimerElapsed
+                0x00000000       0x16 kmain.o
+ .text.writeChannel
+                0x00000000       0x68 kmain.o
+ .text.writeValue
+                0x00000000       0xba kmain.o
+ .rodata.ch.0   0x00000000       0x24 kmain.o
+ .rodata.rg.1   0x00000000       0x48 kmain.o
+ .rodata.sbpro_op.2
+                0x00000000       0x12 kmain.o
+ .text          0x00000000        0x0 ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .data          0x00000000        0x0 ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .bss           0x00000000        0x0 ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .text._out_buffer
+                0x00000000       0x18 ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .text._out_fct
+                0x00000000       0x20 ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .text.sprintf_
+                0x00000000       0x28 ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .text.snprintf_
+                0x00000000       0x28 ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .text.vprintf_
+                0x00000000       0x28 ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .text.vsnprintf_
+                0x00000000       0x22 ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .text.fctprintf
+                0x00000000       0x34 ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .text          0x00000000        0x0 ../../../code/software/libs/build/lib/libprintf.a(putchar.o)
+ .data          0x00000000        0x0 ../../../code/software/libs/build/lib/libprintf.a(putchar.o)
+ .bss           0x00000000        0x0 ../../../code/software/libs/build/lib/libprintf.a(putchar.o)
+ .text.mcPrintln
+                0x00000000       0x12 ../../../code/software/libs/build/lib/libmachine.a(machine.o)
+ .text.mcPrintchar
+                0x00000000       0x12 ../../../code/software/libs/build/lib/libmachine.a(machine.o)
+ .text.mcSetcursor
+                0x00000000        0xe ../../../code/software/libs/build/lib/libmachine.a(machine.o)
+ .text.mcSendchar
+                0x00000000       0x12 ../../../code/software/libs/build/lib/libmachine.a(machine.o)
+ .text.mcReadchar
+                0x00000000        0xa ../../../code/software/libs/build/lib/libmachine.a(machine.o)
+ .text.mcCheckchar
+                0x00000000        0xe ../../../code/software/libs/build/lib/libmachine.a(machine.o)
+ .text.mcBusywait
+                0x00000000        0xc ../../../code/software/libs/build/lib/libmachine.a(machine.o)
+ .text.mcDelaymsec10
+                0x00000000       0x10 ../../../code/software/libs/build/lib/libmachine.a(machine.o)
+ .text.mcDisableInterrupts
+                0x00000000        0xe ../../../code/software/libs/build/lib/libmachine.a(machine.o)
+ .text.mcEnableInterrupts
+                0x00000000       0x1e ../../../code/software/libs/build/lib/libmachine.a(machine.o)
+ .text.mcHalt   0x00000000        0x6 ../../../code/software/libs/build/lib/libmachine.a(machine.o)
+ .text.mcCheckDeviceSupport
+                0x00000000       0x16 ../../../code/software/libs/build/lib/libmachine.a(machine.o)
+ .text.mcGetDeviceCount
+                0x00000000        0xa ../../../code/software/libs/build/lib/libmachine.a(machine.o)
+ .text.mcGetDevice
+                0x00000000       0x12 ../../../code/software/libs/build/lib/libmachine.a(machine.o)
+ .text.mcAddDevice
+                0x00000000        0xe ../../../code/software/libs/build/lib/libmachine.a(machine.o)
+ .text.mcCheckDevice
+                0x00000000        0xe ../../../code/software/libs/build/lib/libmachine.a(machine.o)
+ .text.mcReadDevice
+                0x00000000        0xe ../../../code/software/libs/build/lib/libmachine.a(machine.o)
+ .text.mcSendDevice
+                0x00000000       0x12 ../../../code/software/libs/build/lib/libmachine.a(machine.o)
+ .text.mcDeviceCtrl
+                0x00000000       0x32 ../../../code/software/libs/build/lib/libmachine.a(machine.o)
+ .text          0x00000000        0x0 ../../../code/software/libs/build/lib/libstart_serial.a(kinit.o)
+ .data          0x00000000        0x0 ../../../code/software/libs/build/lib/libstart_serial.a(kinit.o)
+ .bss           0x00000000        0x0 ../../../code/software/libs/build/lib/libstart_serial.a(kinit.o)
+ .text.__cxa_atexit
+                0x00000000       0x4c ../../../code/software/libs/build/lib/libstart_serial.a(kinit.o)
+ .bss.__dso_handle
+                0x00000000        0x4 ../../../code/software/libs/build/lib/libstart_serial.a(kinit.o)
+ .data          0x00000000        0x0 /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_umodsi3.o)
+ .bss           0x00000000        0x0 /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_umodsi3.o)
+ .data          0x00000000        0x0 /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_mulsi3.o)
+ .bss           0x00000000        0x0 /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_mulsi3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x00000000         0x00100000
+EXP_RAM          0x00100000         0x00d00000
+ROM              0x00e00000         0x00100000
+IO_SPACE         0x00f00000         0x00100000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                [!provide]                        PROVIDE (_STACK_SIZE = 0x4000)
+                [!provide]                        PROVIDE (_INITIAL_STACK = 0x0)
+                [!provide]                        PROVIDE (_WARM_BOOT = 0x4)
+                [!provide]                        PROVIDE (_MFP_VECTORS = 0x100)
+                [!provide]                        PROVIDE (_SDB = 0x400)
+                [!provide]                        PROVIDE (_SDB_MAGIC = 0x400)
+                [!provide]                        PROVIDE (_SDB_STATUS = 0x404)
+                [!provide]                        PROVIDE (_SDB_RSRVD_408 = 0x408)
+                0x0000040c                        PROVIDE (_TIMER_100HZ = 0x40c)
+                [!provide]                        PROVIDE (_EASY68K_ECHOON = 0x410)
+                [!provide]                        PROVIDE (_EASY68K_PROMPT = 0x411)
+                [!provide]                        PROVIDE (_EASY68K_SHOWLF = 0x412)
+                [!provide]                        PROVIDE (_SDB_RSRVD_413 = 0x413)
+                [!provide]                        PROVIDE (_SDB_MEM_SIZE = 0x414)
+                [!provide]                        PROVIDE (_SDB_UART_BASE = 0x418)
+                [!provide]                        PROVIDE (_SDB_CPU_INFO = 0x41c)
+                [!provide]                        PROVIDE (_EFP_TABLE = 0x420)
+                [!provide]                        PROVIDE (_EFP_PRINT = 0x420)
+                [!provide]                        PROVIDE (_EFP_PRINTLN = 0x424)
+                [!provide]                        PROVIDE (_EFP_PRINTCHAR = 0x428)
+                [!provide]                        PROVIDE (_EFP_HALT = 0x42c)
+                [!provide]                        PROVIDE (_EFP_SENDCHAR = 0x430)
+                [!provide]                        PROVIDE (_EFP_RECVCHAR = 0x434)
+                [!provide]                        PROVIDE (_EFP_CLRSCR = 0x438)
+                [!provide]                        PROVIDE (_EFP_MOVEXY = 0x43c)
+                [!provide]                        PROVIDE (_EFP_SETCURSOR = 0x440)
+                [!provide]                        PROVIDE (_EFP_CHECKCHAR = 0x444)
+                [!provide]                        PROVIDE (_EFP_PROGLOADER = 0x448)
+                [!provide]                        PROVIDE (_EFP_SD_INIT = 0x44c)
+                [!provide]                        PROVIDE (_EFP_SD_READ = 0x450)
+                [!provide]                        PROVIDE (_EFP_SD_WRITE = 0x454)
+                [!provide]                        PROVIDE (_EFP_SD_REG = 0x458)
+                [!provide]                        PROVIDE (_EFP_SPI_INIT = 0x45c)
+                [!provide]                        PROVIDE (_EFP_SPI_CS_A = 0x460)
+                [!provide]                        PROVIDE (_EFP_SPI_CS_D = 0x464)
+                [!provide]                        PROVIDE (_EFP_SPI_XFER_B = 0x468)
+                [!provide]                        PROVIDE (_EFP_SPI_XFER_M = 0x46c)
+                [!provide]                        PROVIDE (_EFP_SPI_RECV_B = 0x470)
+                [!provide]                        PROVIDE (_EFP_SPI_RECV_M = 0x474)
+                [!provide]                        PROVIDE (_EFP_SPI_SEND_B = 0x478)
+                [!provide]                        PROVIDE (_EFP_SPI_SEND_M = 0x47c)
+                [!provide]                        PROVIDE (_EFP_ATA_INIT = 0x480)
+                [!provide]                        PROVIDE (_EFP_ATA_READ = 0x484)
+                [!provide]                        PROVIDE (_EFP_ATA_WRITE = 0x488)
+                [!provide]                        PROVIDE (_EFP_ATA_IDENT = 0x48c)
+                [!provide]                        PROVIDE (_FIRMWARE = 0xe00000)
+                [!provide]                        PROVIDE (_FIRMWARE_REV = 0xe00400)
+                0x00040000                        PROVIDE (_LOAD_ADDRESS = 0x40000)
+                0x00002000                        PROVIDE (_RUN_ADDRESS = 0x2000)
+
+.text.init      0x00002000       0x22 load address 0x00040000
+                0x00002000                        _init = .
+ *(.init)
+ .init          0x00002000       0x22 ../../../code/software/libs/build/lib/libstart_serial.a(init.o)
+                0x00002022                        _init_end = .
+
+.text.postinit  0x00002024       0xa0 load address 0x00040024
+                0x00002024                        _postinit = .
+ *(.postinit)
+ .postinit      0x00002024       0xa0 ../../../code/software/libs/build/lib/libstart_serial.a(init.o)
+                0x0000203e                _start
+                0x00002080                CALL_CTORS
+                0x000020a2                CALL_DTORS
+                0x000020c4                        . = ALIGN (0x4)
+                0x000020c4                        _postinit_end = .
+
+.text           0x000020c4    0x18a60 load address 0x000400c4
+                0x000020c4                        _code = .
+ *(.text*)
+ .text.writeReg
+                0x000020c4       0xa6 kmain.o
+                0x000020c4                writeReg
+ .text.kmain    0x0000216a      0x216 kmain.o
+                0x0000216a                kmain
+ .text._out_null
+                0x00002380        0x2 ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .text._ntoa_long
+                0x00002382      0x65c ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .text._out_char
+                0x000029de       0x18 ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .text._vsnprintf
+                0x000029f6      0x80c ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .text.printf_  0x00003202       0x28 ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+                0x00003202                printf_
+ .text._putchar
+                0x0000322a       0x42 ../../../code/software/libs/build/lib/libprintf.a(putchar.o)
+                0x0000322a                _putchar
+ .text.mcPrint  0x0000326c       0x12 ../../../code/software/libs/build/lib/libmachine.a(machine.o)
+                0x0000326c                mcPrint
+ .text.__kinit  0x0000327e       0x2c ../../../code/software/libs/build/lib/libstart_serial.a(kinit.o)
+                0x0000327e                __kinit
+ .text.__cxa_finalize
+                0x000032aa       0x70 ../../../code/software/libs/build/lib/libstart_serial.a(kinit.o)
+                0x000032aa                __cxa_finalize
+ *fill*         0x0000331a        0x2 
+ .text          0x0000331c       0x5c /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_udivsi3.o)
+                0x0000331c                __udivsi3_internal
+                0x0000331c                __udivsi3
+ .text          0x00003378       0x2e /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_umodsi3.o)
+                0x00003378                __umodsi3
+ *fill*         0x000033a6        0x2 
+ .text          0x000033a8       0x22 /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_mulsi3.o)
+                0x000033a8                __mulsi3_internal
+                0x000033a8                __mulsi3
+ *(.rodata*)
+ .rodata.kmain.str1.1
+                0x000033ca       0x3b kmain.o
+ .rodata.noHeader
+                0x00003405    0x1771f kmain.o
+                0x0001ab24                        _code_end = .
+                0x0001ab34                        . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.ctors          0x0001ab34        0x0
+                0x0001ab34                        _ctors = .
+ *(.ctors)
+ *(SORT_BY_NAME(.ctors.*))
+                0x0001ab34                        _ctors_end = .
+
+.dtors          0x0001ab34        0x0
+                0x0001ab34                        _dtors = .
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+                0x0001ab34                        _dtors_end = .
+
+.data           0x0001ab34       0x14 load address 0x00058b34
+                0x0001ab34                        _data_start = .
+ *(.data*)
+ .data.secData  0x0001ab34        0x4 kmain.o
+                0x0001ab34                secData
+ .data.secInd   0x0001ab38        0x4 kmain.o
+                0x0001ab38                secInd
+ .data.primData
+                0x0001ab3c        0x4 kmain.o
+                0x0001ab3c                primData
+ .data.primInd  0x0001ab40        0x4 kmain.o
+                0x0001ab40                primInd
+ .data.crbuf    0x0001ab44        0x2 ../../../code/software/libs/build/lib/libprintf.a(putchar.o)
+                0x0001ab48                        . = ALIGN (0x4)
+ *fill*         0x0001ab46        0x2 
+                0x0001ab48                        _data_end = .
+
+.bss            0x0001ab48     0x3810 load address 0x00058b48
+                0x0001ab48                        _bss_start = .
+ *(.bss*)
+ .bss.buf       0x0001ab48        0x2 ../../../code/software/libs/build/lib/libprintf.a(putchar.o)
+ *fill*         0x0001ab4a        0x6 
+ .bss           0x0001ab50        0x4 ../../../code/software/libs/build/lib/libstart_serial.a(init.o)
+ .bss.cxa_atexit_count
+                0x0001ab54        0x2 ../../../code/software/libs/build/lib/libstart_serial.a(kinit.o)
+ .bss.cxa_atexits
+                0x0001ab56     0x3800 ../../../code/software/libs/build/lib/libstart_serial.a(kinit.o)
+ *(COMMON)
+                0x0001e358                        . = ALIGN (0x4)
+ *fill*         0x0001e356        0x2 
+                0x0001e358                        _bss_end = .
+                0x0001e358                        . = DATA_SEGMENT_END (.)
+                0x0001e358                        _end = .
+LOAD kmain.o
+LOAD ../../../code/software/libs/build/lib/libprintf.a
+LOAD ../../../code/software/libs/build/lib/libcstdlib.a
+LOAD ../../../code/software/libs/build/lib/libmachine.a
+LOAD ../../../code/software/libs/build/lib/libstart_serial.a
+LOAD /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a
+OUTPUT(opl.elf elf32-m68k)
+
+.debug_info     0x00000000     0x16cb
+ .debug_info    0x00000000      0x666 kmain.o
+ .debug_info    0x00000666      0xca1 ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .debug_info    0x00001307      0x104 ../../../code/software/libs/build/lib/libprintf.a(putchar.o)
+ .debug_info    0x0000140b      0x254 ../../../code/software/libs/build/lib/libstart_serial.a(kinit.o)
+ .debug_info    0x0000165f       0x24 /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_udivsi3.o)
+ .debug_info    0x00001683       0x24 /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_umodsi3.o)
+ .debug_info    0x000016a7       0x24 /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_mulsi3.o)
+
+.debug_abbrev   0x00000000      0x8dc
+ .debug_abbrev  0x00000000      0x2fe kmain.o
+ .debug_abbrev  0x000002fe      0x358 ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .debug_abbrev  0x00000656       0xc2 ../../../code/software/libs/build/lib/libprintf.a(putchar.o)
+ .debug_abbrev  0x00000718      0x188 ../../../code/software/libs/build/lib/libstart_serial.a(kinit.o)
+ .debug_abbrev  0x000008a0       0x14 /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x000008b4       0x14 /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_umodsi3.o)
+ .debug_abbrev  0x000008c8       0x14 /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_mulsi3.o)
+
+.debug_loclists
+                0x00000000     0x1bc4
+ .debug_loclists
+                0x00000000      0x3eb kmain.o
+ .debug_loclists
+                0x000003eb     0x1759 ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .debug_loclists
+                0x00001b44       0x80 ../../../code/software/libs/build/lib/libstart_serial.a(kinit.o)
+
+.debug_aranges  0x00000000      0x180
+ .debug_aranges
+                0x00000000       0x58 kmain.o
+ .debug_aranges
+                0x00000058       0x78 ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .debug_aranges
+                0x000000d0       0x20 ../../../code/software/libs/build/lib/libprintf.a(putchar.o)
+ .debug_aranges
+                0x000000f0       0x30 ../../../code/software/libs/build/lib/libstart_serial.a(kinit.o)
+ .debug_aranges
+                0x00000120       0x20 /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x00000140       0x20 /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_umodsi3.o)
+ .debug_aranges
+                0x00000160       0x20 /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_mulsi3.o)
+
+.debug_rnglists
+                0x00000000      0x376
+ .debug_rnglists
+                0x00000000       0xfc kmain.o
+ .debug_rnglists
+                0x000000fc      0x230 ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .debug_rnglists
+                0x0000032c       0x13 ../../../code/software/libs/build/lib/libprintf.a(putchar.o)
+ .debug_rnglists
+                0x0000033f       0x37 ../../../code/software/libs/build/lib/libstart_serial.a(kinit.o)
+
+.debug_line     0x00000000     0x1a20
+ .debug_line    0x00000000      0x5db kmain.o
+ .debug_line    0x000005db     0x10f9 ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .debug_line    0x000016d4       0x9a ../../../code/software/libs/build/lib/libprintf.a(putchar.o)
+ .debug_line    0x0000176e      0x199 ../../../code/software/libs/build/lib/libstart_serial.a(kinit.o)
+ .debug_line    0x00001907       0x6d /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_udivsi3.o)
+ .debug_line    0x00001974       0x58 /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_umodsi3.o)
+ .debug_line    0x000019cc       0x54 /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_mulsi3.o)
+
+.debug_str      0x00000000      0x5a8
+ .debug_str     0x00000000      0x241 kmain.o
+                                0x29a (size before relaxing)
+ .debug_str     0x00000241      0x20d ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+                                0x2eb (size before relaxing)
+ .debug_str     0x0000044e       0x23 ../../../code/software/libs/build/lib/libprintf.a(putchar.o)
+                                0x167 (size before relaxing)
+ .debug_str     0x00000471       0xac ../../../code/software/libs/build/lib/libstart_serial.a(kinit.o)
+                                0x221 (size before relaxing)
+ .debug_str     0x0000051d       0x8b /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_udivsi3.o)
+ .debug_str     0x000005a8       0x8b /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_umodsi3.o)
+ .debug_str     0x000005a8       0x8b /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_mulsi3.o)
+
+.comment        0x00000000       0x12
+ .comment       0x00000000       0x12 kmain.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012       0x13 ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .comment       0x00000012       0x13 ../../../code/software/libs/build/lib/libprintf.a(putchar.o)
+ .comment       0x00000012       0x13 ../../../code/software/libs/build/lib/libstart_serial.a(kinit.o)
+
+.debug_frame    0x00000000      0x514
+ .debug_frame   0x00000000      0x14c kmain.o
+ .debug_frame   0x0000014c      0x344 ../../../code/software/libs/build/lib/libprintf.a(printf-nofloat.o)
+ .debug_frame   0x00000490       0x30 ../../../code/software/libs/build/lib/libprintf.a(putchar.o)
+ .debug_frame   0x000004c0       0x54 ../../../code/software/libs/build/lib/libstart_serial.a(kinit.o)
+
+.debug_line_str
+                0x00000000       0x7f
+ .debug_line_str
+                0x00000000       0x7f /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_udivsi3.o)
+ .debug_line_str
+                0x0000007f       0x7f /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_umodsi3.o)
+ .debug_line_str
+                0x0000007f       0x7f /home/linuxbrew/.linuxbrew/Cellar/gcc-cross-m68k@13/13.1.0/lib/gcc/m68k-elf/13.1.0/m68000//libgcc.a(_mulsi3.o)
